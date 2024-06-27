@@ -1,17 +1,37 @@
-.container {
-    color: blueviolet;
+
+
+ul {
+    list-style: none;
+}
+
+.main-nav-bar ul  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4rem;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+
+.nav-item {
+    flex-grow: 2;
+    font-size: .8rem;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0;
 }
 
-.container {
-    width: 70%;
-    padding: 1em;
-    border: 1px solid black;
+.nav-link {
+    color: aliceblue;
 }
 
-.cabecera {
-    color: blue;
-    font-size: 50px;
+.fi {
+    font-size: 1.7rem;
 }
+
+.google {
+    font-size: 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
